@@ -1,0 +1,203 @@
+<!DOCTYPE html><html class="light" lang="vi"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">
+<title>Báo cáo an toàn định kỳ Cẩu QC</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-tint": "#255dad",
+              "on-primary-container": "#9bbdff",
+              "surface-container-high": "#e6e8e9",
+              "surface-container-lowest": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-secondary-fixed-variant": "#3c494f",
+              "secondary": "#546067",
+              "error-container": "#ffdad6",
+              "surface-container": "#eceeef",
+              "on-tertiary-fixed-variant": "#544600",
+              "primary": "#00346f",
+              "secondary-fixed-dim": "#bbc8d0",
+              "inverse-surface": "#2e3132",
+              "on-tertiary": "#ffffff",
+              "on-secondary-fixed": "#111d23",
+              "on-error": "#ffffff",
+              "on-primary-fixed-variant": "#00458f",
+              "outline-variant": "#c2c6d3",
+              "on-surface": "#191c1d",
+              "secondary-container": "#d7e4ec",
+              "on-error-container": "#93000a",
+              "tertiary-fixed-dim": "#e9c400",
+              "primary-fixed-dim": "#abc7ff",
+              "surface-variant": "#e1e3e4",
+              "outline": "#737783",
+              "surface-container-highest": "#e1e3e4",
+              "on-background": "#191c1d",
+              "on-secondary-container": "#5a666d",
+              "secondary-fixed": "#d7e4ec",
+              "surface-dim": "#d8dadb",
+              "surface-container-low": "#f2f4f5",
+              "surface": "#f8fafb",
+              "tertiary": "#705d00",
+              "inverse-primary": "#abc7ff",
+              "primary-container": "#004a99",
+              "primary-fixed": "#d7e2ff",
+              "on-primary-fixed": "#001b3f",
+              "on-surface-variant": "#424751",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#eff1f2",
+              "tertiary-container": "#c9a900",
+              "error": "#ba1a1a",
+              "surface-bright": "#f8fafb",
+              "on-tertiary-container": "#4c3e00",
+              "on-tertiary-fixed": "#221b00",
+              "background": "#f8fafb",
+              "tertiary-fixed": "#ffe170"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface min-h-screen pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-sm flex items-center justify-between px-6 py-4 max-w-full">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-blue-900" data-icon="precision_manufacturing" style="">precision_manufacturing</span>
+<h1 class="text-lg font-extrabold text-blue-900 tracking-tight font-headline" style="">Báo cáo an toàn định kỳ Cẩu QC</h1>
+</div>
+<button class="w-10 h-10 flex items-center justify-center rounded-sm hover:bg-slate-100 transition-colors active:scale-95" style="">
+<span class="material-symbols-outlined text-slate-500" data-icon="notifications" style="">notifications</span>
+</button>
+</header>
+<main class="pt-24 px-6 space-y-8 max-w-md mx-auto">
+<!-- Hero Overview / Status Summary -->
+<section class="relative overflow-hidden bg-primary-container rounded-sm p-6 text-white">
+<div class="relative z-10">
+<span class="label-sm bg-tertiary text-on-tertiary px-2 py-1 uppercase tracking-widest font-bold text-[0.625rem] mb-4 inline-block" style="">Trạng thái hiện tại</span>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="text-4xl font-extrabold font-headline tracking-tighter" style="">94%</span>
+<span class="text-sm font-medium opacity-80" style="">Chỉ số an toàn</span>
+</div>
+<p class="mt-4 text-sm leading-relaxed font-body opacity-90" style="">
+                    Hệ thống Cẩu QC-04 đang hoạt động ổn định. Đợt kiểm tra định kỳ được thực hiện vào 08:30 sáng nay bởi kỹ sư vận hành.
+                </p>
+</div>
+<!-- Decorative Element -->
+<div class="absolute -right-8 -bottom-8 opacity-10">
+<span class="material-symbols-outlined text-[120px]" data-icon="engineering" style="font-variation-settings: &quot;FILL&quot; 1;">engineering</span>
+</div>
+</section>
+<!-- Bento Grid Metrics -->
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-lowest p-4 border-l-4 border-primary shadow-sm">
+<span class="text-[0.65rem] uppercase font-bold tracking-wider text-on-surface-variant block mb-1" style="">Mã thiết bị</span>
+<span class="text-lg font-bold text-primary font-headline" style="">QC-04</span>
+</div>
+<div class="bg-surface-container-lowest p-4 border-l-4 border-tertiary shadow-sm">
+<span class="text-[0.65rem] uppercase font-bold tracking-wider text-on-surface-variant block mb-1" style="">Kỳ báo cáo</span>
+<span class="text-lg font-bold text-on-surface font-headline" style="">Tháng 10</span>
+</div>
+</div>
+<!-- Data Table: Blueprint Table -->
+<section class="space-y-4">
+<h2 class="text-lg font-bold text-on-surface font-headline flex items-center gap-2" style="">
+<span class="material-symbols-outlined text-primary" data-icon="fact_check" style="">fact_check</span>
+                Thông số kỹ thuật
+            </h2>
+<div class="bg-surface-container-low overflow-hidden rounded-sm">
+<!-- Header -->
+<div class="grid grid-cols-12 bg-surface-container-high px-4 py-3">
+<div class="col-span-7 text-[0.7rem] uppercase font-bold tracking-wider text-secondary" style="">Thông số</div>
+<div class="col-span-5 text-[0.7rem] uppercase font-bold tracking-wider text-secondary text-right" style="">Trạng thái</div>
+</div>
+<!-- Row 1: Độ mòn cáp -->
+<div class="grid grid-cols-12 px-4 py-6 bg-surface items-center">
+<div class="col-span-7">
+<span class="text-sm font-bold text-on-surface block" style="">Độ mòn cáp</span>
+<div class="mt-2 w-32 h-1 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary" style="width: 10%;"></div>
+</div>
+</div>
+<div class="col-span-5 text-right">
+<span class="text-sm font-bold text-primary" style="">10%</span>
+</div>
+</div>
+<!-- Row 2: Tình trạng phanh -->
+<div class="grid grid-cols-12 px-4 py-6 bg-surface-container-low items-center">
+<div class="col-span-7">
+<span class="text-sm font-bold text-on-surface block" style="">Tình trạng phanh</span>
+</div>
+<div class="col-span-5 flex justify-end">
+<span class="inline-flex items-center px-3 py-1 bg-primary-fixed text-on-primary-fixed-variant text-[0.7rem] font-bold border-l-[3px] border-primary-container" style="">
+                            TỐT
+                        </span>
+</div>
+</div>
+<!-- Row 3: Vết nứt ray -->
+<div class="grid grid-cols-12 px-4 py-6 bg-surface items-center">
+<div class="col-span-7">
+<span class="text-sm font-bold text-on-surface block" style="">Vết nứt ray</span>
+</div>
+<div class="col-span-5 flex justify-end">
+<span class="inline-flex items-center px-3 py-1 bg-surface-container-highest text-on-surface text-[0.7rem] font-bold border-l-[3px] border-secondary" style="">
+                            ĐÃ XỬ LÝ
+                        </span>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Context Card -->
+<section class="rounded-sm overflow-hidden bg-surface-container-lowest shadow-sm">
+<img alt="Close-up of industrial quay crane hoisting mechanism and steel cables in a modern shipyard setting" class="w-full h-40 object-cover grayscale contrast-125" data-alt="close-up of industrial quay crane hoisting mechanism and steel cables in a modern shipyard setting with blue atmospheric light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuwDB3beczv6vDYlFFutn5k9n8hcI5jXhp5Ey3qA1MKJYyZdLG8mXqN0thn0TNnTcpXnVp4sRdZM6mjb8sM6ZwVzPAfd0aM-EzJx034f5nfVurQScCYEu-gGo4UgkwwTbNVmYQzwq8F0J0MPbwC3HejlnQU9dYdhusVHhHOSedHdfg_3HAYJJGZ_CD9R9sNEwuRBz-qR2Fkn5-QOMADZIcSYLpfDiwszfNQ1A1EWmldjnJ6XCbR7JDnWe67Xz_iczVljsn0BunAle_" style="">
+<div class="p-4 bg-white">
+<span class="text-[0.65rem] uppercase font-bold text-secondary tracking-widest" style="">Ghi chú hình ảnh</span>
+<p class="text-xs text-on-surface-variant mt-1 italic" style="">Hệ thống cáp tời chính được kiểm tra bằng phương pháp nội soi điện từ ngày 20/10/2023.</p>
+</div>
+</section>
+<!-- Action Area -->
+<section class="pb-12 pt-4">
+<button class="w-full py-5 px-6 rounded-sm bg-gradient-to-br from-primary to-primary-container text-white font-bold tracking-tight shadow-lg flex items-center justify-center gap-3 active:scale-95 transition-transform duration-75" style="">
+<span class="material-symbols-outlined" data-icon="check_circle" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+                Xác nhận kiểm tra
+            </button>
+<p class="text-center text-[0.65rem] text-secondary mt-4 font-medium uppercase tracking-widest" style="">Xác nhận có hiệu lực trong 24 giờ</p>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 py-3 pb-safe bg-white shadow-[0_-4px_20px_0_rgba(0,0,0,0.05)] z-50">
+<a class="flex flex-col items-center justify-center bg-gradient-to-br from-blue-800 to-blue-600 text-white rounded-sm px-6 py-2 transition-transform duration-200 ease-in-out active:scale-98" href="#" style="">
+<span class="material-symbols-outlined mb-1" data-icon="analytics" style="font-variation-settings: &quot;FILL&quot; 1;">analytics</span>
+<span class="font-['Inter'] font-semibold text-[0.6rem] uppercase tracking-widest" style="">Báo cáo</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-500 hover:text-blue-700 px-4 py-2 transition-transform duration-200 ease-in-out active:scale-98" href="#" style="">
+<span class="material-symbols-outlined mb-1" data-icon="check_circle" style="">check_circle</span>
+<span class="font-['Inter'] font-semibold text-[0.6rem] uppercase tracking-widest" style="">Xác nhận kiểm tra</span>
+</a>
+</nav>
+</body></html>
